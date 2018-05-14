@@ -1,7 +1,7 @@
 #MaxHotKeysPerInterval 100000
 #SingleInstance Force
 
-;This sc ript provides exponential mouse scrolling speeds using a discrete exponential function
+;This script provides exponential mouse scrolling speeds using a discrete exponential function
 
 firstThreshold := 200 ;Time in milliseconds
 secondThreshold := 45 ;Time in milliseconds
