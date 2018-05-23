@@ -10,7 +10,7 @@ thirdSpeedMultiplier := 6 ;Multiplies default mouse scroll speed
 
 ;It would be nice to implement a continuous speed curve by solving for an x^2 polynomial function, Guassian elimination to solve etc....
 
-WheelUp:: ;This will be triggered whenever the system receives a scrollup signal
+WheelUp:: ;This will be triggered whenever the system receives a scrollup event
     if (A_TimeSincePriorHotkey > firstThreshold) { ;Time in miliseconds since the last scroll event
         SendInput {WheelUp}
     } else if (A_TimeSincePriorHotkey > secondThreshold) {
