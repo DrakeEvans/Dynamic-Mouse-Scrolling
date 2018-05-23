@@ -3,8 +3,8 @@
 
 ;This script provides exponential mouse scrolling speeds using a discrete exponential function
 
-firstThreshold := 200 ;Time in milliseconds
-secondThreshold := 45 ;Time in milliseconds
+firstThreshold := 200 ;Time in milliseconds since last scroll event
+secondThreshold := 45 ;Time in milliseconds since last scroll event
 secondSpeedMultiplier := 3 ;Multiplies default mouse scroll speed
 thirdSpeedMultiplier := 6 ;Multiplies default mouse scroll speed
 
